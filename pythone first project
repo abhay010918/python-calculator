@@ -1,0 +1,37 @@
+# making calculator for hotel
+
+print("welcome to the tip calculator")
+
+# what is the total bill 
+
+bill = input("what is the total bill? ")
+
+# how much tip do you want to give 
+
+tip = input("how much tip you give 10, 12 or 15? ")
+
+# how many persone split this bill 
+
+split = input(f"how many people split the bill ")
+
+# types of variables
+
+bill = float(bill)
+
+tip = float(tip)
+
+split = int(split)
+
+# the methmetics cums here
+
+total_bill = bill + (tip/100)
+
+total_split_bill = total_bill / split
+
+# now time to show 
+
+print(f"your total bill is ${total_split_bill} ")
+
+# enjoy your code abhay
+
+print("congratulations abhay your first project is done")
